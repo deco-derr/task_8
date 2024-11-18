@@ -1,0 +1,169 @@
+/* General Reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+
+  font-family: Arial, sans-serif;
+  background-color: #e8eff5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+/* Container for all pages */
+.container {
+  width: 100%;
+  max-width: 700px;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+}
+
+/* Title Styling */
+h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Form Styles */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+  color: #444;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"] {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #ffffff; /* White background */
+  color: #000; /* Black text */
+  transition: border-color 0.2s;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="number"]:focus {
+  border-color: #007bff;
+}
+
+/* Buttons */
+button {
+  padding: 10px 15px;
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Table Styles */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th, td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #007bff;
+  color: #ffffff;
+}
+
+td {
+  color: #333;
+}
+
+input[type="text"] {
+  margin-bottom: 15px;
+  width: 100%;
+  padding: 8px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+}
+.student-details {
+  color: #000;
+  background-color: #ffffff;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+  border: 2px solid transparent;
+  background-clip: padding-box;
+  position: relative;
+}
+
+.buttons button{
+  margin-right: 8px;
+
+}
+
+.buttons button:last-child{
+  margin-left: 0px;
+}
+
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  background-color: #4CAF50;
+  width: 100%;
+  padding: 10px 20px;
+  border-radius: 4px;
+  top: 10px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 18px;
+  transition: color 0.3s ease, background-color 0.3s ease;
+  padding: 5px 10px;
+  border-radius: 4px;
+}
+
+.nav-link:hover {
+  color: #4CAF50;
+  background-color: white;
+  text-decoration: none;
+}
+
+
+
+.intro{
+  color: #656464;
+}
